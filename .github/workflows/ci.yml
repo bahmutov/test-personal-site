@@ -1,5 +1,9 @@
 name: ci
-on: [push]
+on:
+  push
+  schedule:
+      # test site every night
+      - cron: '0 4 * * *'
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
