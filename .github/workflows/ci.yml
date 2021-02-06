@@ -1,6 +1,5 @@
 name: ci
-on:
-  push
+on: [push]
   schedule:
       # test site every night
       - cron: '0 4 * * *'
