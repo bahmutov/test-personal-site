@@ -1,11 +1,15 @@
 name: ci
+# specify the events this workflow should run on
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on
 on:
-  workflow_dispatch
+  # manual button click from the GitHub UI
+  workflow_dispatch:
+  # pushing commit to the main branch
   push:
     branches:
       - main
+  # test site every night
   schedule:
-      # test site every night
       - cron: '0 4 * * *'
 jobs:
   cypress-run:
