@@ -1,0 +1,24 @@
+{
+  "name": "test-personal-site",
+  "version": "1.0.0",
+  "description": "E2E tests for my personal site",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/test-personal-site.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/test-personal-site/issues"
+  },
+  "homepage": "https://github.com/bahmutov/test-personal-site#readme",
+  "devDependencies": {
+    "cypress": "6.4.0"
+  }
+}
