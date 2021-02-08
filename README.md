@@ -1,4 +1,4 @@
-# test-personal-site [![ci status][ci image]][ci url]
+# test-personal-site [![ci status][ci image]][ci url] ![cypress version](https://img.shields.io/badge/cypress-6.4.0-brightgreen)
 > E2E tests for my personal site
 
 This repo tests [glebbahmutov.com](https://glebbahmutov.com/) site using Cypress tests running at [GitHub Actions](https://glebbahmutov.com/blog/trying-github-actions/).
